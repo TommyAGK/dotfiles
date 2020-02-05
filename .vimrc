@@ -33,7 +33,7 @@ endif
 " 'set -g focus-events on' in your tmux config
 let g:gitgutter_terminal_reports_focus=0
 "" Open current line on GitHub
-nnoremap <Leader>o :.Gbrowse<CR>
+nnoremap <Leader>b :.Gbrowse<CR>
 
 "" git commands, leader is comma, so ',ga' does GWrite
 noremap <Leader>ga :Gwrite<CR>
@@ -68,6 +68,7 @@ let g:ansible_name_highlight = 'd'
 "    b: brighten the instances of name: found
 "
 
+call plug#end()
 
 """"""" END OF PLUGINS
 
